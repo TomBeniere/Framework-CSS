@@ -28,31 +28,31 @@
 
 /* flex-direction */
 
-.direction-col {
+.flex-col {
     flex-direction: column;
 }
 
-.direction-row {
+.flex-row {
     flex-direction: row;
 }
 
-.direction-row-reverse {
+.flex-row-reverse {
     flex-direction: row-reverse;
 }
 
-.direction-col-reverse {
+.flex-col-reverse {
     flex-direction: column-reverse;
 }
 
-.direction-inherit {
+.flex-inherit {
     flex-direction: inherit;
 }
 
-.direction-initial {
+.flex-initial {
     flex-direction: initial
 }
 
-.direction-col-unset {
+.flex-col-unset {
     flex-direction: unset;
 }
 
