@@ -1,2 +1,213 @@
 /* Framework CSS */
 /* author : BENIERE Tom */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*////// Flexbox ///////*/
+
+/* Display */
+
+.flex {
+    display: flex;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*/////////////////*/
+
+/* flex-direction */
+
+.direction-col {
+    flex-direction: column;
+}
+
+.direction-row {
+    flex-direction: row;
+}
+
+.direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.direction-col-reverse {
+    flex-direction: column-reverse;
+}
+
+.direction-inherit {
+    flex-direction: inherit;
+}
+
+.direction-initial {
+    flex-direction: initial
+}
+
+.direction-col-unset {
+    flex-direction: unset;
+}
+
+/*//////////////////*/
+
+/* justify-content */
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-baseline {
+    justify-content: baseline;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-inherit {
+    justify-content: inherit;
+}
+
+.justify-initial {
+    justify-content: initial;
+}
+
+/*/////////////*/
+
+/* align-items */
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-initial {
+    align-items: initial;
+}
+
+.items-inherit {
+    align-items: inherit;
+}
+
+.items-stretch {
+    align-items: stretch;
+}
+
+.items-center {
+    align-items: baseline
+}
+
+.items-unset {
+    align-items: unset;
+}
+
+/*/////////*/
+
+/* align-content */
+
+.content-center {
+    align-content: center;
+}
+
+.content-end {
+    align-content: flex-end;
+}
+
+.content-start {
+    align-content: flex-start;
+}
+
+.content-inherit {
+    align-content: inherit;
+}
+
+.content-initial {
+    align-content: initial;
+}
+
+.content-around {
+    align-content: space-around;
+}
+
+.content-between {
+    align-content: space-between;
+}
+
+.content-stretch {
+    align-content: stretch;
+}
+
+.content-unset {
+    align-content: unset;
+}
+
+/*///////////////*/
+
+/* flex-wrap */
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap-initial {
+    flex-wrap: initial;
+}
+
+.wrap-inherit {
+    flex-wrap: inherit;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.wrap-unset {
+    flex-wrap: unset;
+}
+
+/*/////////////*/
+
+/*//////////////////////////////////*/
